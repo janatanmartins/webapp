@@ -2,7 +2,7 @@ package br.dev.janatandv.webApp.models;
 
 import java.util.Date;
 
-public class TaskModels {
+public class TaskModel {
 
     private long id;
     private String name;
@@ -11,9 +11,9 @@ public class TaskModels {
 
     
 
-    public TaskModels() {
+    public TaskModel() {
     }
-    public TaskModels(long id, String name, Date date) {
+    public TaskModel(long id, String name, Date date) {
         this.id = id;
         this.name = name;
         this.date = date;
